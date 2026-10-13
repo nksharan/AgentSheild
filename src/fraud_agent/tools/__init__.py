@@ -1,3 +1,3 @@
-from .transaction_tools import check_velocity, score_transaction
+from .content_tools import analyze_url, check_sender, scan_text
 
-TOOLS = [score_transaction, check_velocity]
+TOOLS = [scan_text, analyze_url, check_sender]
